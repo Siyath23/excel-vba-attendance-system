@@ -1,86 +1,43 @@
 # Excel VBA Attendance Management System
 
-An employee attendance management system built using Microsoft Excel and VBA.
+An employee attendance management system built using Microsoft Excel and VBA. It records Clock In / Clock Out and automatically calculates working hours, late time, and overtime.
 
-## Overview
+## ✨ Features
+- One-click Clock In / Clock Out
+- Automatic working-hours calculation
+- Attendance Log sheet with daily records
+- Dashboard with total hours, late arrivals
+- VBA modular code (AttendanceSystem.bas)
 
-This project records employee attendance using Clock In and Clock Out functions and automatically calculates working hours.
-
-The system was developed as an Excel and VBA learning project, with reference to an online tutorial and further customization for portfolio purposes.
-
-## Features
-
-* Employee ID selection
-* Employee information lookup
-* Clock In functionality
-* Clock Out functionality
-* Automatic date and time recording
-* Duplicate Clock In prevention
-* Clock Out validation
-* Working-hours calculation
-* Late arrival detection
-* Overtime calculation
-* Attendance history
-* Dashboard KPIs
-* VBA automation
-
-## Technologies Used
-
-* Microsoft Excel
-* Excel VBA
-* Excel Tables
-* XLOOKUP
-* Data Validation
-* Excel Formulas
-
-## Project Structure
-
-```text
-Excel-VBA-Attendance-System/
-│
-├── Attendance_Log_System.xlsm
-├── README.md
-├── screenshots/
-│   ├── dashboard.png
-│   └── attendance_log.png
-└── VBA/
-    └── AttendanceSystem.bas
-```
-
-## How to Use
-
-1. Download `Attendance_Log_System.xlsm`.
-2. Open the workbook using Microsoft Excel Desktop.
-3. Enable macros when prompted.
-4. Select an Employee ID from the dropdown.
-5. Click `Clock In`.
-6. Click `Clock Out` when the employee leaves.
-7. View the recorded information in the Attendance Log.
-
-## Screenshots
-
+## 📸 Screenshots
 ### Dashboard
-
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](screenshots/Dashboard.png)
 
 ### Attendance Log
+![Attendance Log](screenshots/Attendance_Log.png)
 
-![Attendance Log](screenshots/attendance_log.png)
+## 🚀 How to Use
+1. Download `Attendance_Log_System.xlsm`
+2. Open it and **Enable Macros** when Excel asks
+3. Click `Clock In` when you arrive, `Clock Out` when you leave
+4. Check the `Attendance_Log` sheet for history
+5. Check `Dashboard` for summary
 
-## Future Improvements
+## 🛠️ Tech Stack
+- Microsoft Excel (.xlsm)
+- VBA (Visual Basic for Applications)
 
-* Monthly attendance reports
-* Attendance dashboard with charts
-* Department-wise analysis
-* Advanced PivotTable reporting
-* More employee management features
-* Payroll integration
+## 📁 File Structure
+Attendance_Log_System.xlsm (Main file)
+AttendanceSystem.bas (VBA source code)
+screenshots/ (Project images)
+README.md
 
-## Requirements
 
-* Microsoft Excel Desktop
-* Macros must be enabled for the VBA features to work
+## 🔮 Future Improvements
+- Monthly report generation
+- Leave management
+- Employee-wise filtering
 
-## Author
-
-Siyath Sansilu Suraweera
+## 👨‍💻 Author
+**Siyath23** - First GitHub Project
