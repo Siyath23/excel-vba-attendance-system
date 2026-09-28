@@ -1,0 +1,11 @@
+# Excel temp files
+~$*.xls*
+*.tmp
+
+# VBA
+*.exd
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
